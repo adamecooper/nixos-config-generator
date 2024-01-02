@@ -71,9 +71,13 @@ prompt_reboot() {
 
 cleanup
 check_installer
+echo "hello!!!!!!!!!!!!!!!!!!!"
 download_config
+echo "hello!!!!!!!!!!!!!!!!!!!"
 run_apply
+echo "hello!!!!!!!!!!!!!!!!!!!"
 run_disko
+echo "hello!!!!!!!!!!!!!!!!!!!"
 setup_files
 install_nixos
 cleanup
