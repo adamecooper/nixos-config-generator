@@ -19,38 +19,38 @@ with pkgs; [
   zip
 
   # Encryption and security tools
-  age
-  age-plugin-yubikey
-  gnupg
-  libfido2
-  pinentry
-  yubikey-manager
+  # age
+  # age-plugin-yubikey
+  # gnupg
+  # libfido2
+  # pinentry
+  # yubikey-manager
 
   # Cloud-related tools and SDKs
-  docker
-  docker-compose
+  # docker
+  # docker-compose
 
-  awscli2
-  flyctl
-  ngrok
-  tflint
+  # awscli2
+  # flyctl
+  # ngrok
+  # tflint
 
   # Media-related packages
   emacs-all-the-icons-fonts
-  dejavu_fonts
-  ffmpeg
-  fd
-  font-awesome
-  hack-font
-  noto-fonts
-  noto-fonts-emoji
-  meslo-lgs-nf
+  # dejavu_fonts
+  # ffmpeg
+  # fd
+  # font-awesome
+  # hack-font
+  # noto-fonts
+  # noto-fonts-emoji
+  # meslo-lgs-nf
 
   # Node.js development tools
-  nodePackages.nodemon
-  nodePackages.prettier
-  nodePackages.npm # globally install npm
-  nodejs
+  # nodePackages.nodemon
+  # nodePackages.prettier
+  # nodePackages.npm # globally install npm
+  # nodejs
 
   # Text and terminal utilities
   htop
@@ -66,6 +66,6 @@ with pkgs; [
   zsh-powerlevel10k
 
   # Python packages
-  python39
-  python39Packages.virtualenv # globally install virtualenv
+  # python39
+  # python39Packages.virtualenv # globally install virtualenv
 ]
