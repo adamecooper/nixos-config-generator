@@ -11,13 +11,13 @@ check_installer() {
 }
 
 cleanup() {
-  rm -rf nixos-config-main.zip nixos-config-main nixos-config
+  rm -rf nixos-config-generator-main.zip nixos-config-generator-main nixos-config
 }
 
 download_config() {
-  curl -LJ0 https://github.com/dustinlyons/nixos-config/archive/main.zip -o nixos-config-main.zip
-  unzip nixos-config-main.zip
-  mv nixos-config-main/templates/starter nixos-config
+  curl -LJ0 https://github.com/adamecooper/nixos-config-generator/archive/main.zip -o nixos-config-generator-main.zip
+  unzip nixos-config-generator-main.zip
+  mv nixos-config-generator-main/templates/starter nixos-config
   cd nixos-config
 }
 
