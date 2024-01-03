@@ -35,6 +35,7 @@ let user = "%USER%";
     hostName = "%HOST%"; # Define your hostname.
     useDHCP = false;
     interfaces."%INTERFACE%".useDHCP = true;
+    wireless.enable = true;
   };
 
   # Turn on flag for proprietary software
